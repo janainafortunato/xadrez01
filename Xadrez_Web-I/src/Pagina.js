@@ -12,7 +12,7 @@ function Pagina() {
         </p>
         <a
           className="App-link"
-          href="localhost:3000/App"
+          href="localhost:3000/Tabuleiro"
           target="_blank"
           rel="noopener noreferrer">
           Inicia Jogo de Xadrez

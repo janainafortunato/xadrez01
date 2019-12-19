@@ -3,7 +3,7 @@ import './App.css';
 
 var i;
 
-class App extends Component {
+class Tabuleiro extends Component {
   constructor(props){
     super(props);
     this.state = {
@@ -27,7 +27,7 @@ class App extends Component {
         'P','P','P','P','P','P','P','P',
         'T','C','B','K','Q','B','C','T',
       ],
-      selected: '',
+      selected: ' ',
       clicked: false,
     }
   }
@@ -1038,7 +1038,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Tabuleiro">
         <div className="grid">
           {this.renderMesa()}
         </div>
@@ -1049,4 +1049,4 @@ class App extends Component {
 
 
 
-export default App;
+export default Tabuleiro;

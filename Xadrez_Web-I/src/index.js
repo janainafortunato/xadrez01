@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Tabuleiro from './Tabuleiro';
 import Sobre from './Sobre';
 import Ajuda from './Ajuda';
 import Pagina from './Pagina';
@@ -12,7 +12,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 ReactDOM.render(
 	<BrowserRouter>
         <Switch>
-	 	<Route path="/app" exact={true} component={App} />
+	 	<Route path="/tabuleiro" exact={true} component={Tabuleiro} />
 		<Route path="/pagina" component={Pagina} />
 		<Route path="/Sobre" component={Sobre} />
 		<Route path="/Ajuda" component={Ajuda} />
