@@ -9,16 +9,27 @@ function Pagina() {
         <img src={logo} className="App-logo1" alt="logo" />
         <p>
           IFPE-Campus Igarassu <p>Turma de Web I</p>
-           https://tabuleirodexadrez.com.br/regras-do-xadrez.html
         </p>
         <a
           className="App-link"
           href="localhost:3000/App"
-	        href="localhost:3000/Ajuda" 
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Inicia Jogo de Xadrez
+        </a>
+        <a
+          className="App-link"
+          href="localhost:3000/Sobre"
+          target="_blank"
+          rel="noopener noreferrer">
+          Sobre
+        </a>
+        <a
+          className="App-link"
+          href="localhost:3000/Ajuda"
+          target="_blank"
+          rel="noopener noreferrer">
+          Ajuda
         </a>
       </header>
     </div>

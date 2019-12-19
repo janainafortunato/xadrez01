@@ -1,33 +1,17 @@
 import React, {Component} from 'react';
 import './App.css';
 
-function Sobre() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Regras do Xadrez</p>
-        </p>
-        <a
-          className="App-link"
-          href="localhost:3000/App"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inicia Jogo de Xadrez
-        </a>
-	<a
-          className="App-link"
-	  href="localhost:3000/Ajuda"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-	  Ajuda
-        </a>
-      </header>
-    </div>
-  );
-}
+class Ajuda extends Component{
+  render(){
+    return ( <p>
+  
+ É disputado entre dois jogadores, utilizando-se de um tabuleiro e 16 peças, sendo representadas por peões, torres, cavalos, bispos, um rei e uma rainha. O xadrez é um jogo de tabuleiro, de caráter competitivo, disputado entre dois participantes. ... O objetivo do jogo é conquistar o “rei” de seu adversário.
+   
+    </p>
+ )}
 
-export default Pagina;
+}
+ 
+
+
 export default Ajuda;
