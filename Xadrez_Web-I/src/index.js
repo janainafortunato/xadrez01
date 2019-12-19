@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import Sobre from './Sobre';
 import Ajuda from './Ajuda';
 import Pagina from './Pagina';
 
@@ -14,7 +14,7 @@ ReactDOM.render(
         <Switch>
 	 	<Route path="/app" exact={true} component={App} />
 		<Route path="/pagina" component={Pagina} />
-		
+		<Route path="/Sobre" component={Sobre} />
 		<Route path="/Ajuda" component={Ajuda} />
 		</Switch>
 	</ BrowserRouter>
